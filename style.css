@@ -1,0 +1,48 @@
+.serif {
+    font-family: serif;
+}
+.sans-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.times {
+    font-family: "Times New Roman", serif;
+}
+.georgia {
+    font-family: "Georgia", Georgia, serif;
+}
+/* Styling uls that occur directly after an h4 tag */
+h4 + ul {
+    font-size: 30px;
+    background-color: azure;
+}
+    /* Styling p tags that occur directly after an h4 tag */
+    h4 + p {
+        background-color: lemonchiffon;
+        font-size:24px;
+    }
+.arial {
+    font-family: "Arial", Arial, sans-serif;
+}
+.verdana {
+    font-family: "Verdana", Verdana, sans-serif;
+}
+.courier {
+    font-family: "Courier New", Courier, monospace;
+}
+.lucida {
+    font-family: "Lucida Console", Lucida, monospace;
+}
+.sofia {
+    font-family: "Sofia", sans-serif;
+}
+.acme {
+    font-family: "Acme", sans-serif;
+}
+/* Styling p tags that occur at any point after an h2 tag */
+h2 ~ p {
+    background-color: rgba(247, 214, 221);
+    font-size: 20px;
+}
